@@ -1,4 +1,4 @@
-import {Navbar, Mainpanel,Leftpanel} from './assets/component'
+import {Navbar, Leftpanel} from './assets/component'
 function App() {
   return (
    <div>
@@ -7,7 +7,6 @@ function App() {
     </div>
     <div className='flex flex-row'>
       <Leftpanel/>     
-      <Mainpanel/>
     </div>
    </div>
   );
