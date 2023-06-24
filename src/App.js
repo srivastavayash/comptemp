@@ -1,10 +1,15 @@
-import './App.css';
-
+import {Navbar, Mainpanel,Leftpanel} from './assets/component'
 function App() {
   return (
-    <div className="App">
-      <h1 className='text-3xl'>Hello Bhai !</h1>
+   <div>
+    <div>
+      <Navbar/>
     </div>
+    <div className='flex flex-row'>
+      <Leftpanel/>     
+      <Mainpanel/>
+    </div>
+   </div>
   );
 }
 
